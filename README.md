@@ -1,18 +1,16 @@
-# 📱 SaaS Controle Parental
+# SaaS Controle Parental
 
-Sistema completo de controle parental com monitoramento, limites de uso, bloqueios e relatórios.
+Plataforma de controle parental desenvolvida para monitoramento, gerenciamento de permissões, bloqueio de aplicativos e análise de uso em tempo real.
+Projetada para alta escalabilidade, baixo consumo de recursos e integração multi-dispositivo.
 
 ---
 
 ## 🖼 Screenshots
 
-<img src="./images/1.png" width="400"/>
-<img src="./images/2.png" width="400"/>
-<img src="./images/3.png" width="400"/>
-
+<p float="left"> <img src="./images/1.png" width="380" /> <img src="./images/2.png" width="380" /> <img src="./images/3.png" width="380" /> </p>
 ---
 
-## 🚀 Tecnologias
+## Tecnologias
 - React / React Native
 - Node.js
 - Firebase
