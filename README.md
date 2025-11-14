@@ -26,7 +26,7 @@ Sistema completo de controle parental com monitoramento, limites de uso, bloquei
 
 ## 📦 Instalação
 ```bash
-git clone https://github.com/seuUser/Saas-Controle-Parental
+git clone https://github.com/ZhawrtDev/Saas-Controle-Parental
 cd Saas-Controle-Parental
 npm install
 npm start
