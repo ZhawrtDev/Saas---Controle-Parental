@@ -1,0 +1,147 @@
+p.turial {
+  color: #b9b9bb;
+  font-size: 11px;
+  max-width: 700px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(176, 176, 176, 0.527);
+  margin: 40px 20px;
+
+  .ico {
+    margin-left: 5px;
+  }
+
+  span {
+    font-weight: bold;
+    background: linear-gradient(90deg, #b0b0b0, #fff, #b0b0b0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 5px;
+  }
+}
+
+.main-aplications {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  background: #161616;
+  margin: 20px 15px 20px 15px;
+
+  .box-app {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: row;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+    padding-left: 35px;
+    background: #101010;
+    border: 1px solid #232323d6;
+    /* border: 1px solid #232323d6; */
+    transition-duration: 0.15s;
+    transition-property: color, background-color, border-color,
+      text-decoration-color, fill, stroke, opacity, box-shadow, transform,
+      filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .app-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+    }
+
+    .txt {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 30px;
+
+      h1 {
+        background: linear-gradient(90deg, #b0b0b0, #fff, #b0b0b0);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 5px;
+      }
+
+      p {
+        color: #b9b9bb;
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+
+    .functions {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .touch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        border: 1px solid #232323d6;
+        margin: 5px;
+        padding: 0px 20px;
+        height: 40px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition-duration: 0.15s;
+        transition-property: color, background-color, border-color,
+          text-decoration-color, fill, stroke, opacity, box-shadow, transform,
+          filter, backdrop-filter, -webkit-backdrop-filter;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        p {
+          background: linear-gradient(90deg, #b0b0b0, #fff, #b0b0b0);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-weight: bold;
+          font-size: 12px;
+          padding-left: 10px;
+        }
+      }
+
+      .touch:hover,
+      .touch.a {
+        background: #33333354;
+      }
+    }
+  }
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 967px) {
+  .main-aplications {
+    .box-app {
+      height: 165px;
+      padding: 20px 0px 10px 35px;
+
+      .functions {
+        justify-content: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 505px) {
+  .main-aplications {
+    .box-app {
+      height: 237px;
+    }
+  }
+}

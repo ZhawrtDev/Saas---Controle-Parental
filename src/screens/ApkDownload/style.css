@@ -1,0 +1,15 @@
+.render-Apk {
+  display: flex;
+  flex-direction: column;
+  margin-left: 241px;
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 10px 10px 39px;
+  transition: margin-left 0.3s ease;
+
+  .box-download {
+    width: 400px;
+    height: 500px;
+    background: red;
+  }
+}
