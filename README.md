@@ -6,11 +6,9 @@ Sistema completo de controle parental com monitoramento, limites de uso, bloquei
 
 ## 🖼 Screenshots
 
-### 🔹 Tela inicial
 <img src="./images/1.png" width="400"/>
-
-### 🔹 Dashboard
 <img src="./images/2.png" width="400"/>
+<img src="./images/3.png" width="400"/>
 
 ---
 
